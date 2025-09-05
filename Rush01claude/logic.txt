@@ -1,0 +1,11 @@
+Key Optimizations for 7x7:
+Most Constrained Variable: Try numbers that have the fewest possibilities first
+
+Domain reduction: Precompute possible numbers for each cell
+
+Forward checking: Eliminate invalid choices early
+
+Heuristic ordering: Try the most promising numbers first
+
+Logic:
+-check col, rows, constraint.  if exist backtracking.
